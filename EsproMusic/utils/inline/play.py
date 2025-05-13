@@ -66,7 +66,9 @@ def stream_markup_timer(_, chat_id, played, dur):
           #  InlineKeyboardButton(text="▣", callback_data=f"ADMIN Stop|{chat_id}"),
             InlineKeyboardButton(text="➥  ‣‣I 𝗦𝗸𝗶𝗽", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
-         
+         [
+             InlineKeyboardButton(text="「 ✦ 𝐂𝐋𝐈𝐂𝐊 ✦ 」", url=f"https://t.me/me_tuntuni"),
+          ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ]
